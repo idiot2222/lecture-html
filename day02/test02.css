@@ -1,0 +1,32 @@
+* {
+    font-size: 50px;
+}
+
+.shadow1 {
+    color: red;
+    text-shadow: 5px 5px black;
+}
+
+.shadow2 {
+    color: black;
+    text-shadow: 10px 10px 3px #ffa500;
+}
+
+.shadow3 {
+    color: white;
+    text-shadow: 10px -10px 30px black;
+}
+
+.spacing1 {
+    letter-spacing: 0.2em;
+    word-spacing: 0.5em;
+}
+
+.spacing2 {
+    letter-spacing: 0.5em;
+    word-spacing: 1em;
+}
+
+.fruit {
+    list-style: lower-roman inside;
+}

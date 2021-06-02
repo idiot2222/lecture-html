@@ -1,0 +1,29 @@
+.index-text > h5 {
+    font-size: 30px;
+}
+
+.index-text > p {
+    font-size: 20px;
+}
+
+.index-text-bg {
+    background-color: lightgray;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.accordion {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

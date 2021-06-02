@@ -1,0 +1,60 @@
+p {
+    text-align: right;
+    color: rgba(0, 0, 255, 0.2);
+    font-size: 24px;
+    line-height: 1.0;
+}
+
+.accent {
+    border: 1px solid #555;
+    padding: 5px;
+}
+
+h1 {
+    padding: 10px;
+    background-color: #bbb;
+    color: #eee;
+    border: 5px solid blueviolet;
+}
+
+* {
+    margin: 15px;
+}
+
+.bg {
+    background-color: #ddd;
+}
+
+#container {
+    width: 500px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+div p {
+    
+}
+
+div > p {
+
+}
+
+body {
+    font-family: "소름 돋움", Monaco, 돋움, 굴림;
+    background: url(./img/04.jpg);
+    background-repeat: no-repeat;
+}
+
+.color1 {
+    color: rgb(255, 255, 255);
+}
+
+.color2 {
+    color: rgba(255, 255, 255, .5);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
