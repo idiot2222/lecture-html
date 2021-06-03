@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>background-range</title>
+
+    <style>
+        .desc {
+            background-color: red;
+            border: 10px dotted black;
+            width: 200px;
+            height: 200px;
+            margin: 30px;
+            padding: 30px;
+        }
+
+        #clip-border {
+            background-clip: border-box;
+        }
+
+        #clip-padding {
+            background-clip: padding-box;
+        }
+
+        #clip-content {
+            background-clip: content-box;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div class="desc" id="clip-border">border</div>
+        <div class="desc" id="clip-padding">padding</div>
+        <div class="desc" id="clip-content">content</div>
+    </div>
+</body>
+
+</html>
