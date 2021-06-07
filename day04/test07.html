@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>if</title>
+
+    <style>
+        div {
+            display: inline-block;
+            padding: 0 20px 30px 20px;
+            margin: 15px;
+            border: 1px solid #ccc;
+            line-height: 2;
+        }
+        
+        div h3 {
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
+</head>
+        
+<body>
+
+    <script>
+        for (var i = 1; i <= 9; i++) {
+            if(i % 2 == 1) {
+                continue;
+            }
+            
+            document.write("<div><h3>" + i + "단 </h3>");
+            
+            for (var j = 1; j <= 9; j++) {
+                document.write(i + " X " + j + " = " + i * j + "<br>");
+            }
+            document.write("</div>");
+        }
+    </script>
+</body>
+
+</html>

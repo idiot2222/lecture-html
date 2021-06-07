@@ -1,0 +1,57 @@
+.container {
+    width: 1600px;  
+    height: 900px;
+
+    position: relative;
+    transform: translate(-50%, 0);
+    left: 50%;
+}
+
+.banner {
+    width: 1600px;
+    height: 380px;
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.content {
+    background-color: yellow;
+    width: 1600px;
+    height: 520px;
+    border-radius: 50px;
+    border: 4px solid orange;
+    text-align: center;
+}
+
+.box {
+    width: 400px;
+    height: 250px;
+
+    margin: 65px;
+    position: relative;
+
+    float: left;
+}
+
+.cover {
+    background-color: rgba(30, 30, 30, .5);
+    width: 400px;
+    height: 100px;
+
+    bottom: 0;
+    position: absolute;
+
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+
+    color: rgba(30, 30, 30, .5);
+    text-align: center;
+}
+
+.cover:hover {
+    height: 250px;
+    color: white;
+}
