@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+
+<body>
+
+    <script>
+        let a;
+        let b;
+        let cnt = 0;
+
+        for(let i = 0 ; i < 5 ; i++) {
+            a = Math.ceil(Math.random() * 11);
+            b = Math.ceil(Math.random() * 11);
+
+            let answer = prompt(`${a} + ${b} = ?`);
+
+            if(answer == a+b) {
+                cnt++;
+            }
+        }
+
+        document.write(`총 5문제 중 ${cnt}개의 문제를 맞췄습니다.`);
+    </script>
+</body>
+
+</html>

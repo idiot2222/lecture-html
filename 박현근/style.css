@@ -1,0 +1,46 @@
+body * {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    position: relative;
+}
+
+#carouselExampleSlidesOnly {
+    z-index: 10;
+}
+
+
+.gap {
+    z-index: 10;
+    margin: 0;
+    height: 50px;
+    width: 100%;
+    display: inline-block;
+}
+
+.footer-logo {
+    color: black;
+    padding: 20px;
+    margin: 10px auto;
+    display: inline-block;
+
+    text-decoration: none;
+}
+
+.card-title:hover, .card-text:hover {
+    cursor: pointer;
+}
+.card-text, .card-title {
+}
+
+.card-img-top {
+    transition: all .5s ease-in-out;
+}
+
+.hide {
+    z-index: 0;
+    opacity: 0;
+    transform: translate(0, -100%);
+}
